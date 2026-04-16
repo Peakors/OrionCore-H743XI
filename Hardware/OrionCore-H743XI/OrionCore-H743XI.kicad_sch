@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "02115977-f748-4728-9543-88d4a684aec9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 26.67 133.985)
+		(size 38.1 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4a5006f6-33d4-4cc8-a186-882c354e54fc")
+		(property "Sheetname" "PowerModule"
+			(at 26.67 133.2734 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerModule.kicad_sch"
+			(at 26.67 152.3496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrionCore-H743XI"
+				(path "/02115977-f748-4728-9543-88d4a684aec9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 63.5)
+		(size 27.94 15.875)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "732fd1bb-3b27-4b1c-b538-755941781626")
+		(property "Sheetname" "MemoryModule"
+			(at 26.67 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MemoryModule.kicad_sch"
+			(at 26.67 79.9596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrionCore-H743XI"
+				(path "/02115977-f748-4728-9543-88d4a684aec9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 102.235)
+		(size 33.655 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb95a949-8f63-4f55-9def-f68cb02b7008")
+		(property "Sheetname" "PeripheralModule"
+			(at 24.13 101.5234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PeripheralModule.kicad_sch"
+			(at 24.13 119.3296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrionCore-H743XI"
+				(path "/02115977-f748-4728-9543-88d4a684aec9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 29.21)
+		(size 29.21 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f12a8986-07ea-44a7-a913-eff87359069f")
+		(property "Sheetname" "MotherModule"
+			(at 26.67 28.4984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MotherModule.kicad_sch"
+			(at 26.67 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrionCore-H743XI"
+				(path "/02115977-f748-4728-9543-88d4a684aec9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
