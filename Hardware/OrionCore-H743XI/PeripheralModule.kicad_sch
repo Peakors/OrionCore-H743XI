@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "afd3894a-55ce-4b7e-8750-b5796de71b2a")
 	(paper "A4")
+	(title_block
+		(title "OrionCore")
+		(date "2026-05-15")
+		(rev "V1.0")
+		(company "Peakors")
+	)
 	(lib_symbols
 		(symbol "Peakors_Device_Library:FANKE_RGB888_40Pin_0.5mm"
 			(exclude_from_sim no)
@@ -1322,6 +1328,15 @@
 		(uuid "527215db-fbb3-42bc-bd20-ee782ede3066")
 	)
 	(bus_entry
+		(at 100.33 88.9)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5abe2ac3-c44f-4308-93e8-20d93fc6516d")
+	)
+	(bus_entry
 		(at 43.18 48.26)
 		(size -2.54 -2.54)
 		(stroke
@@ -1401,6 +1416,15 @@
 			(type default)
 		)
 		(uuid "b358e90b-b6a6-4993-894c-146074938f5b")
+	)
+	(bus_entry
+		(at 100.33 86.36)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a69e6b-5ca8-4683-9cef-505536aeb318")
 	)
 	(bus_entry
 		(at 43.18 93.98)
@@ -1547,6 +1571,16 @@
 		)
 		(uuid "51d51bb5-bd7c-4220-b5ba-fbe9c99801d7")
 	)
+	(bus
+		(pts
+			(xy 102.87 88.9) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539fb975-0620-44fa-bc7d-c2bf199f23eb")
+	)
 	(wire
 		(pts
 			(xy 43.18 63.5) (xy 55.88 63.5)
@@ -1556,6 +1590,16 @@
 			(type default)
 		)
 		(uuid "56c04aae-3a7b-49a9-9130-337765b1c027")
+	)
+	(bus
+		(pts
+			(xy 102.87 92.71) (xy 105.41 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60925b58-9747-4bc0-8fc0-cf216a89f87a")
 	)
 	(wire
 		(pts
@@ -1867,7 +1911,7 @@
 		)
 		(uuid "fbc7303d-8f5d-4844-b39d-36813d42f619")
 	)
-	(label "I2C1_SCL"
+	(label "I2C1.SCL"
 		(at 100.33 86.36 180)
 		(effects
 			(font
@@ -2167,7 +2211,7 @@
 		)
 		(uuid "f43e5712-154d-4714-b43f-c924b72f79b1")
 	)
-	(label "I2C1_SDA"
+	(label "I2C1.SDA"
 		(at 100.33 88.9 180)
 		(effects
 			(font
@@ -2208,6 +2252,28 @@
 		)
 		(uuid "17d66669-0ba9-4d55-99ef-1419a36b4482")
 	)
+	(hierarchical_label "TOUCH_RST"
+		(shape input)
+		(at 100.33 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2766e5d0-eca3-40e4-8f38-1392dcc39d72")
+	)
+	(hierarchical_label "LCD_CLK"
+		(shape input)
+		(at 100.33 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ab746f5-80cd-4e0d-95d0-a0e41f5101df")
+	)
 	(hierarchical_label "LCD_R[0..7]"
 		(shape input)
 		(at 38.1 31.75 180)
@@ -2218,6 +2284,72 @@
 			(justify right)
 		)
 		(uuid "5b3feac4-0f79-44cf-9b48-47010cbbd204")
+	)
+	(hierarchical_label "I2C1{SCL,SDA}"
+		(shape input)
+		(at 105.41 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77e1573a-690a-4e15-b329-36000eb8f0ae")
+	)
+	(hierarchical_label "LCD_VSYNC"
+		(shape input)
+		(at 100.33 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82b1ae20-dd41-4e96-b24c-5b441978432a")
+	)
+	(hierarchical_label "LCD_HSYNC"
+		(shape input)
+		(at 100.33 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af58ad67-1cdd-45b4-bd7d-57d69c8dbe88")
+	)
+	(hierarchical_label "LCD_DE"
+		(shape input)
+		(at 100.33 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4b420fa-a57f-4fd5-b019-b75e23238c25")
+	)
+	(hierarchical_label "LCD_BL"
+		(shape input)
+		(at 100.33 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c07d27f7-d275-48d5-b66a-cd901f4d9be6")
+	)
+	(hierarchical_label "TOUCH_INT"
+		(shape input)
+		(at 100.33 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0b96bd9-d14e-4d1e-aee5-e0b8b86c2b61")
 	)
 	(hierarchical_label "LCD_G[0..7]"
 		(shape input)

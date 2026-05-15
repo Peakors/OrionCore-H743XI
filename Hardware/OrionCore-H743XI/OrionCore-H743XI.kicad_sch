@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "02115977-f748-4728-9543-88d4a684aec9")
 	(paper "A4")
+	(title_block
+		(title "OrionCore")
+		(date "2026-05-15")
+		(rev "V1.0")
+		(company "Peakors")
+	)
 	(lib_symbols)
 	(sheet
 		(at 26.67 133.985)
@@ -195,4 +201,25 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "KCA_A4_01.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDqCf0VAJZeYCAAmRtW2iRDK2TDlpqBLyKcpyVzUk48cVMDJLP0/081IVYAUABbAN95BvE/
+				5kL8opDNUfa1oVzBz4P8M1CJxRa9Z1F+7WegmGxf2dKn/AsAQEAQmt5LEWtcn8t6/vnCqzP+mv16
+				yMCQUiJmnH2xLWU/FQABQYmE+ni1s6RCHTmOixJRAPzFINl0dgmHl7z6U/7c04igsyNVpXJ37VcP
+				PWe/GXf/dex4kTr8ce3f228XfXvXhHPtq/86COJu9mzvegLRUcr+XL90Xe1gvQFXfwUzBnX2sGY0
+				WibL+MpuvA9zncDipKNpTq5hMK6mSCzRjSgvmMlGo3U+kOwxobAIFKMdpWxgil4wWtqWQT4aZ7OZ
+				sAjt8K+QnLMq+1/vWgWyXzKN6GyZqSYNAYFh0kWcikkbMmKMGSmWkNtFs6huDUH8aEk9lyxjwTwy
+				Fr0pk5Ity2yaJtkgEFiUluyiVSYRG+nsV9/2jHGBMWbPGCOmVbbJ9r3dpvRsv7tosxgcWoNQzQSA
+				iaARQaWYmRIpSJIUOmBExMxVN2ahAouCwwNY6fYQ+S+Ti21pT5JuQhiEtZ/LPWilfuW72oO2wfGD
+				ISYoYqAsO8In6xomq5F/mRxt5gaAj9ccKnBCfQ1CXB3MgGs964/IIjYtS/2HDxjv1u1g7+dZRMw2
+				r/WdaFRPoEsELZnnLARVXgIVYlFnXyhEBPyL8Ea5slwEM2vN4UsHOeokVIPFuy0adoUtSqQcjYZp
+				lzINk5Xj1EF8QH/Kxdi2kDNm+Og9q2FMR5/40KikzUQOe8ptFLWXzpr6w4EQzSn1iWYlL47gAb95
+				gmO1J0DmmJVb6Pj3Xhm2rcuhXxAYaRVJ6cFNRFgBhgPgTyeJKREslqKH6VcDhgOHWT1a7mzRTbrF
+				CbmMiOCnc2JvU6JNnaYNa/0bnkvcWPY6SMcAVwE=|
+			)
+			(checksum "43FDF5989D8FB9E8D56AEAEA202998C9")
+		)
+	)
 )
