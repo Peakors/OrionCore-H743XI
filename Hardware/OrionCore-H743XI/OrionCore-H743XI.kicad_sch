@@ -104,6 +104,52 @@
 		)
 	)
 	(sheet
+		(at 73.66 31.75)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b7311da1-c8a1-4af0-b1d9-353e8dff26ce")
+		(property "Sheetname" "DebugInterfaceModule"
+			(at 73.66 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DebugInterfaceModule.kicad_sch"
+			(at 73.66 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrionCore-H743XI"
+				(path "/02115977-f748-4728-9543-88d4a684aec9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 102.235)
 		(size 33.655 16.51)
 		(exclude_from_sim no)
